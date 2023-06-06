@@ -1,0 +1,46 @@
+.banner {
+  width: 1440px;
+  margin-top: 0px;
+  padding-top: 60px;
+
+  display: flex;
+  flex-direction: column;
+  background-color: #fff4df;
+}
+.title {
+  text-align: center;
+}
+.banner-img {
+  width: 800px;
+  margin: auto;
+}
+.banner-btn {
+  width: 150px;
+  margin: auto;
+  padding: 10px 10px;
+  border: none;
+  background-color: #fe8e5e;
+  color: white;
+  border-radius: 7px;
+}
+
+/* Responsive CSS */
+
+@media (max-width: 600px) {
+  .banner {
+    width: 600px;
+    padding-top: 40px;
+    padding-right: 0px;
+  }
+
+  .banner-img {
+    width: 400px;
+    margin-top: 20px;
+  }
+
+  .banner-btn {
+    width: 150px;
+    margin: auto;
+    font-size: 14px;
+  }
+}

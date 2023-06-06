@@ -1,0 +1,94 @@
+.footer {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  justify-items: center;
+  margin-top: 100px;
+}
+.main-footer {
+  background: linear-gradient(to top, #fffaf0, #fff3de);
+  width: 1440px;
+}
+div ul li {
+  list-style: none;
+  color: gray;
+  padding-bottom: 7px;
+  cursor: pointer;
+}
+.twitter {
+  margin-right: 9px;
+  font-size: 30px;
+  cursor: pointer;
+}
+.facebook {
+  margin-right: 9px;
+  font-size: 30px;
+  cursor: pointer;
+}
+.linkedin {
+  font-size: 30px;
+  cursor: pointer;
+}
+.navigation ul {
+  padding-left: 0;
+}
+.support ul {
+  padding-left: 0;
+}
+.privacy ul {
+  padding-left: 0;
+}
+.short-link ul {
+  padding-left: 0;
+}
+.bottom-footer {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 60px;
+  margin-left: 40px;
+  color: gray;
+}
+@media only screen and (max-width: 768px) {
+  .footer {
+    grid-template-columns: repeat(1, 1fr);
+    width: 500px;
+    margin-left: 10px;
+  }
+  .bottom-footer {
+    flex-direction: column;
+  }
+  .main-footer {
+    width: 768px;
+  }
+  div ul li {
+    list-style: none;
+    color: gray;
+    padding-bottom: 7px;
+    cursor: pointer;
+  }
+  .twitter {
+    margin-right: 9px;
+    font-size: 30px;
+    cursor: pointer;
+  }
+  .facebook {
+    margin-right: 9px;
+    font-size: 30px;
+    cursor: pointer;
+  }
+  .linkedin {
+    font-size: 30px;
+    cursor: pointer;
+  }
+  .navigation ul {
+    padding-left: 0;
+  }
+  .support ul {
+    padding-left: 0;
+  }
+  .privacy ul {
+    padding-left: 0;
+  }
+  .short-link ul {
+    padding-left: 0;
+  }
+}

@@ -1,0 +1,44 @@
+.portfolio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.portfolio-left {
+  display: flex;
+  padding: 5px;
+}
+.leftside {
+  background-color: rgb(250, 137, 129);
+  margin-right: 5px;
+  padding-bottom: 5px;
+}
+.portfolio-left img {
+  width: 400px;
+  height: 500px;
+}
+.portfolio-right {
+  display: flex;
+  flex-direction: column;
+}
+.portfolio-right img {
+  width: 400px;
+  height: 250px;
+}
+.rightside1 {
+  background-color: beige;
+  margin-bottom: 5px;
+}
+.rightside2 {
+  background-color: rgb(218, 189, 151);
+}
+@media only screen and (max-width: 768px) {
+  .portfolio {
+    width: 768px;
+    margin: 0px;
+    align-items: flex-start;
+  }
+  .portfolio-left {
+    display: flex;
+    flex-direction: column;
+  }
+}
