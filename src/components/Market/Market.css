@@ -28,10 +28,21 @@
 .fabulish {
   font-size: 30px;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 400px) {
   .container {
     grid-template-columns: repeat(1, 1fr);
     width: 400px;
-    margin-left: 10px;
+    margin: 0px;
+    padding: 0px;
+  }
+  .container-title {
+    font-size: 21px;
+  }
+  .blog {
+    display: block;
+  }
+  .right img {
+    width: 400px;
+    padding: 0;
   }
 }

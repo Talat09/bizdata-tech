@@ -4,6 +4,12 @@
 
   /* background-color: #fff4df; */
 }
-.App {
-  scroll-behavior: smooth;
+
+@media only screen and (max-width: 600px) {
+  .App {
+    width: 400px;
+    /* margin: auto; */
+
+    /* background-color: #fff4df; */
+  }
 }

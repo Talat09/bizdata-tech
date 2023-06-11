@@ -16,10 +16,20 @@
   border-radius: 7px;
   cursor: pointer;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 400px) {
   .testimoial {
     grid-template-columns: repeat(1, 1fr);
-    width: 580px;
-    margin-left: 10px;
+    width: 400px;
+    margin: 0px;
+  }
+  .testimoial h1 {
+    font-size: 25px;
+  }
+
+  .testimonial-img {
+    width: 400px;
+  }
+  .testimonial-info {
+    width: 300px;
   }
 }

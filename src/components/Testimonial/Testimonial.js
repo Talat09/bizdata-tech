@@ -4,8 +4,8 @@ import "./Testimonial.css";
 const Testimonial = () => {
   return (
     <div className="testimoial">
-      <img src={businesspic} alt="" />
-      <div>
+      <img className="testimonial-img" src={businesspic} alt="" />
+      <div className="testimonial-info">
         <h1>
           Business that serves as
           <br />

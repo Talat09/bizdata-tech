@@ -26,11 +26,12 @@
 
 /* Responsive CSS */
 
-@media (max-width: 600px) {
+@media (max-width: 400px) {
   .banner {
-    width: 600px;
-    padding-top: 40px;
-    padding-right: 0px;
+    width: 400px;
+    flex-direction: column-reverse;
+    padding: 0px;
+    margin: 0px;
   }
 
   .banner-img {
@@ -42,5 +43,8 @@
     width: 150px;
     margin: auto;
     font-size: 14px;
+  }
+  .title {
+    font-size: 21px;
   }
 }

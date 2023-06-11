@@ -4,7 +4,7 @@ import businesspic from "../../asset/pic2.png";
 const Business = () => {
   return (
     <div className="business">
-      <div>
+      <div className="business-info">
         <h1>
           Business dedicated <br /> to creating, planning <br />
           advertising
@@ -19,7 +19,7 @@ const Business = () => {
         <button className="business-btn">Get Started btn</button>
       </div>
 
-      <img src={businesspic} alt="" />
+      <img className="business-img" src={businesspic} alt="" />
     </div>
   );
 };

@@ -16,10 +16,19 @@
   border-radius: 7px;
   cursor: pointer;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 400px) {
   .business {
     grid-template-columns: repeat(1, 1fr);
-    width: 580px;
-    margin-left: 10px;
+    width: 400px;
+    margin: 0px;
+  }
+  .business-info h1 {
+    font-size: 25px;
+  }
+  .business-info {
+    width: 300px;
+  }
+  .business-img {
+    width: 400px;
   }
 }

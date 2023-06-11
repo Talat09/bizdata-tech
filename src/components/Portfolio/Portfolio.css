@@ -31,14 +31,26 @@
 .rightside2 {
   background-color: rgb(218, 189, 151);
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 400px) {
   .portfolio {
-    width: 768px;
+    width: 400px;
     margin: 0px;
     align-items: flex-start;
+    margin: 0px;
+  }
+  .portfolio h1 {
+    font-size: 20px;
+    padding: 0px;
+    margin-left: 5px;
   }
   .portfolio-left {
     display: flex;
     flex-direction: column;
+    padding: 0px;
+  }
+  .portfolio img {
+    width: 400px;
+    margin: 0px;
+    padding: 0px;
   }
 }

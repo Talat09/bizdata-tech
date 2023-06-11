@@ -20,39 +20,39 @@ const Footer = () => {
         </div>
         <div className="navigation">
           <h4>Navigation</h4>
-          <ul>
-            <li>About Us</li>
-            <li>Pricing</li>
-            <li>Blog</li>
-            <li>Contact Us</li>
-          </ul>
+          <div>
+            <p>About Us</p>
+            <p>Pricing</p>
+            <p>Blog</p>
+            <p>Contact Us</p>
+          </div>
         </div>
         <div className="support">
           <h4>Support</h4>
-          <ul>
-            <li>Tools aply</li>
-            <li>E-books</li>
-            <li>Management</li>
-            <li>Collaboration</li>
-          </ul>
+          <div>
+            <p>Tools aply</p>
+            <p>E-books</p>
+            <p>Management</p>
+            <p>Collaboration</p>
+          </div>
         </div>
         <div className="privacy">
           <h4>Privacy</h4>
-          <ul>
-            <li>Help</li>
-            <li>Mail Us</li>
-            <li>Information</li>
-            <li>Company</li>
-          </ul>
+          <div>
+            <p>Help</p>
+            <p>Mail Us</p>
+            <p>Information</p>
+            <p>Company</p>
+          </div>
         </div>
         <div className="short-link">
           <h4>Short-link</h4>
-          <ul>
-            <li>Contact form</li>
-            <li>Newsletter</li>
-            <li>Sign-up</li>
-            <li>Contact Us</li>
-          </ul>
+          <div>
+            <p>Contact form</p>
+            <p>Newsletter</p>
+            <p>Sign-up</p>
+            <p>Contact Us</p>
+          </div>
         </div>
       </div>
       <div className="bottom-footer">
